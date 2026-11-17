@@ -7,8 +7,6 @@ name: Sync upstream
 # polls instead, and only acts when the upstream has a release tag the fork does not.
 
 on:
-  schedule:
-    - cron: "37 4 * * *"
   workflow_dispatch:
 
 concurrency:
